@@ -62,7 +62,7 @@ h1{
     background-size: cover;
     border-radius: 50%;
     box-shadow: 2px 2px  30px 15px #b6a1eeef;
-    animation: example 60s linear 1s infinite;
+    animation: example 600s linear 0s infinite;
     
 }
 @keyframes backward_image{
