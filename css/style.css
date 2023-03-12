@@ -8,7 +8,7 @@ h1{
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
-    /* color: white; */
+    color: white;
     margin-top: 60px;
     margin-left: 40px;
     
@@ -17,6 +17,75 @@ h1{
     display: flex;
     justify-content: space-between;
 
+}
+.weekF{
+    color: #ffffff;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+article{
+    height: 100vh;
+}
+.temp_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+#clouds{
+    font-size: 20px;
+    background: rgba(153, 205, 55, 0.75);
+    padding: 5px;
+    border-radius: 5px;
+}
+.next{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    font-weight: 600;
+    
+}
+.next p{
+    margin: 3px 0;
+}
+.time{
+    color: rgb(233, 201, 23);
+}
+.desc{
+    color: #ffe600;
+}
+.cast_header{
+    color: aliceblue;
+    background: rgba(254, 189, 132, 0.5);
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.divider, .divider2{
+    background: #ffffff;
+    height: 200px;
+    border-radius: 5px;
+}
+.divider2{
+height: 5px;
+width: 30%;
+margin: 0 auto;
+}
+#temparature{
+    font-size: 50px;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.forecasth{
+    color: aliceblue;
+    font-size: 25px;
 }
 .input{
     margin-top: 60px; 
@@ -56,16 +125,16 @@ font-size: 30px;
     display: grid;
     grid-template-columns: 3fr 2fr;
     /* background-color: rgb(60, 255, 0); */
-    /* background: url(../images/images.jpg);
+    background: url(../images/images.jpg);
     position: fixed;
     background-size: 100% 100%;
     left: 0;
     top: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
    
-    animation: backward_image 15s ease-in-out 1s infinite; */
+    animation: backward_image 15s ease-in-out 1s infinite;
    
 }
 
@@ -87,7 +156,7 @@ font-size: 30px;
 }
 @keyframes backward_image{
    0%, 100%{
-      background-image: url(../images/earth.jpg) ;
+      /* background-image: url(../images/earth.jpg) ; */
     }
     25%
     {
